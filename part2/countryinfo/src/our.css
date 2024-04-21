@@ -1,0 +1,16 @@
+h3 {
+    font-family: monospace;
+    color: #132743;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: monospace;
+    color: #132743;
+    letter-spacing: 0.1em;
+}
+
+.normal {
+    color: #132743;
+    font-family: sans-serif;
+}
