@@ -39,7 +39,7 @@ const App = () => {
           if (error.response && error.response.data) {
             setMessage(`Information of ${entry.name} has already been removed from server`);
           } else {
-          setMessage(`Number of ${entry.name} is changed`)
+          
           setTimeout(() => {
             setMessage(null);
           }, 5000);}
@@ -57,7 +57,7 @@ const App = () => {
             if (error.response && error.response.data) {
               setMessage(`${error.response.data.error}`);
             } else
-            {setMessage(`${entry.name} added`)
+            {
             setTimeout(() => {
               setMessage(null);
             }, 5000);}
